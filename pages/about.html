@@ -20,6 +20,36 @@
 </head>
 
 <body id="body">
+    <div class="title-bar" id="menu" data-responsive-toggle="main-menu" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle="main-menu"></button>
+        <div class="title-bar-title">Menu</div>
+    </div>
+      
+    <div class="top-bar small-sticky" data-sticky data-sticky-on="small" data-top-anchor="menu:bottom" data-margin-top="0" id="main-menu">
+        <div class="top-bar-left">
+          <ul class="menu">
+            <li><h1 class="h5"><a href="/">SketchnoteSara</a></h1></li>
+          </ul>
+        </div>
+        <div class="top-bar-right">
+          <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
+            
+                <li>
+                    <a href="#">What I Do</a>
+                    <ul class="menu vertical">
+                            <li><a href="/category/asynchronous-sketchnotes.html">Asynchronous Sketchnotes</a></li>
+                            <li><a href="/category/autistic-life-comics.html">Autistic Life Comics</a></li>
+                            <li><a href="/category/illustration.html">Illustration</a></li>
+                            <li><a href="/category/live-sketchnotes.html">Live Sketchnotes</a></li>
+                            <li><a href="/category/workshops.html">Workshops</a></li>
+                    </ul>
+                </li>
+                
+                    <li class="active"><a href="/pages/about.html">About</a></li>
+                    <li><a href="/pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+    </div>
     
     <main>
 <div class="grid-container">
@@ -36,9 +66,33 @@ Born and raised in Belgium, I now live in Switzerland, where I love exploring th
 </div>
 
     </main>
-    <script src="/theme/js/vendor/jquery.js"></script>
+    <footer id="footer">
+        <div class="footer-about">
+            <h4>Sara Peeters</h4>
+            <p>Bern, Switzerland</p>
+            <p>Instagram: <a href="https://www.instagram.com/sketchnotesara/">@sketchnotesara</a></p>
+            <p>Twitter: <a href="https://www.twitter.com/sketchnotesara/">@sketchnotesara</a></p>
+            <p><a href="www.linkedin.com/in/sara-peeters-bern">LinkedIn</a></p>
+            <hr/>
+            <p><a href="/pages/data_privacy">Data privacy policy</a></p>
+        </div>
+        <div class="footer-about">
+            <h4>Navigation</h4>
+                <p><a href="/pages/about.html">About</a></p>
+                <p><a href="/pages/contact.html">Contact</a></p>
+            <h6>What I Do</h6>
+                <p><a href="/category/asynchronous-sketchnotes.html">Asynchronous Sketchnotes</a></p>
+                <p><a href="/category/autistic-life-comics.html">Autistic Life Comics</a></p>
+                <p><a href="/category/illustration.html">Illustration</a></p>
+                <p><a href="/category/live-sketchnotes.html">Live Sketchnotes</a></p>
+                <p><a href="/category/workshops.html">Workshops</a></p>
+        </div>
+        <div class="ml-embedded" data-form="TElvad"></div>
+    </footer>
+     <script src="/theme/js/vendor/jquery.js"></script>
     <script src="/theme/js/vendor/what-input.js"></script>
     <script src="/theme/js/vendor/foundation.js"></script>
     <script src="/theme/js/app.js"></script>
 </body>
+
 </html>

@@ -1,3 +1,13 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+
+main{
+    flex:1;
+}
+
 .submenu {
     margin-left: 20px;
 }
@@ -19,4 +29,22 @@ footer {
 
 .linktree-main {
     text-align: center;
+}
+
+.testimonial-slide{
+    padding: 2em 4em 2em 4em;
+    background-color: #f6f6f6;
+    color:#555555
+}
+
+.testimonial-text{
+    text-align: center;
+    font-size: x-large;
+
+}
+
+.testimonial-contributor{
+    text-align: end;
+    font-size: larger;
+    font-style: italic;
 }
