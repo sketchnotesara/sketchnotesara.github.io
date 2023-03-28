@@ -12,3 +12,11 @@ footer {
 .footer-about{
     padding: 20px 20px 0 20px;
 }
+
+.img-page {
+    max-width: 600px;
+}
+
+.linktree-main {
+    text-align: center;
+}
